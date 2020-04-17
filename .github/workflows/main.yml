@@ -8,7 +8,7 @@ jobs:
   recordMetrics:
     runs-on: ubuntu-latest
     steps:
-    - uses: michaeljolley/aggregit@v0.7
+    - uses: michaeljolley/aggregit@v1.0
       with:
         githubToken: ${{ secrets.GITHUB_TOKEN }}
         project_id: ${{ secrets.project_id }}
